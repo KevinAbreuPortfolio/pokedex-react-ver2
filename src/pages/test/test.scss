@@ -1,0 +1,25 @@
+.descflex{
+    max-width: 100%;
+    display: flex;
+    // padding:1%;
+    justify-content: space-between;
+    div{
+        text-align: center;
+    }
+}
+
+.typeflex{
+    display: flex;
+    >*:nth-child(1),
+    >*:nth-child(2){
+        flex:1;
+        height:100%;
+    }
+}
+
+.font{
+        font-family: 'futura';
+        >*{
+            font-family: 'futura';
+        }
+}
